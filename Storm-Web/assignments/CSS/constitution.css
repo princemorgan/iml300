@@ -1,0 +1,106 @@
+/* 
+CUSTOMIZE the following section as you wish
+Feel free to add additional styling if you wish
+DO NOT CHANGE the class names
+*/
+
+.article 
+body {
+    background-color: lightblue;
+}
+
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+h2 {
+    color: navy;
+    margin-left: 20px;
+}
+    
+p {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+}
+
+.section {
+    
+}
+
+.amendment {
+    
+}
+
+.emphasize {
+    
+}
+
+.keywords {
+    
+}
+
+
+/* --------------------------------------- */
+/*        DO NOT MODIFY BELOW HERE         */
+/* --------------------------------------- */
+
+footer {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    color: dimgrey;
+    vertical-align: top
+}
+
+footer a {
+    text-decoration: none;    
+    font-size: 1em;    
+}
+
+footer a span {
+    background-color: orange;            
+    font-size: 2em;
+    vertical-align: text-bottom
+}
+
+
+footer a:hover {
+    color: crimson;
+}
+
+nav {
+    font-family: serif
+}
+
+nav:first-child {
+    margin-left: 1em;
+    float: left;
+    display: inline; 
+    width: auto;
+}
+
+nav:last-child {
+    margin-right: 1em;
+    float: right;
+}
+
+#backButton:before {
+/*    content: "\25C0 ";*/
+    content: "\2190 ";
+    font-size: 3em;
+}
+
+#nextButton:after {
+/*    content: "\25B6 ";*/
+    content: "\2192 ";
+    font-size: 3em;
+}
